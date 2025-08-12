@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#3b82f6" stroke-width="10"/>
+  
+  <!-- Inner circle background -->
+  <circle cx="100" cy="100" r="85" fill="#1e3a8a"/>
+  
+  <!-- CAPITAL text -->
+  <text x="100" y="110" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold" letter-spacing="2px">CAPITAL</text>
+  
+  <!-- Fire & Security Inc. text -->
+  <text x="100" y="170" text-anchor="middle" fill="#3b82f6" font-family="Arial, sans-serif" font-size="14" font-weight="600">Fire &amp; Security Inc.</text>
+</svg>
