@@ -116,7 +116,7 @@ Generated on ${new Date().toLocaleString('en-CA', { timeZone: 'America/Toronto' 
             throw new Error('Email credentials not configured');
         }
         
-        const headOfficeEmail = process.env.HEAD_OFFICE_EMAIL || 'rob@capitalfireandsecurity.ca,office@capitalfireandsecurity.ca,Fireservicedesk@capitalfireandsecurity.ca';
+        const headOfficeEmail = process.env.HEAD_OFFICE_EMAIL || 'office@capitalfireandsecurity.ca';
         const emailContent = this.formatSignInEmail(signInData);
         
         const mailOptions = {

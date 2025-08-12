@@ -242,7 +242,7 @@ Google Maps Link: https://maps.google.com/?q=${location.latitude},${location.lon
 
 Generated: ${new Date().toLocaleString('en-CA')}`;
 
-        const headOfficeEmail = 'rob@capitalfireandsecurity.ca,office@capitalfireandsecurity.ca,Fireservicedesk@capitalfireandsecurity.ca';
+        const headOfficeEmail = 'office@capitalfireandsecurity.ca';
         const mailtoUrl = `mailto:${headOfficeEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         
         try {
@@ -274,7 +274,7 @@ Google Maps Link: https://maps.google.com/?q=${location.latitude},${location.lon
 
 Generated: ${new Date().toLocaleString('en-CA')}`;
 
-        const headOfficeEmail = 'rob@capitalfireandsecurity.ca,office@capitalfireandsecurity.ca,Fireservicedesk@capitalfireandsecurity.ca';
+        const headOfficeEmail = 'office@capitalfireandsecurity.ca';
         const mailtoUrl = `mailto:${headOfficeEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         
         try {
