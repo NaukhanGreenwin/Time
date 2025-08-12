@@ -7,7 +7,7 @@ const rateLimit = require('express-rate-limit');
 require('dotenv').config();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 7634;
 
 // Security middleware
 app.use(helmet({
@@ -17,7 +17,7 @@ app.use(helmet({
       styleSrc: ["'self'", "'unsafe-inline'", "https://unpkg.com"],
       scriptSrc: ["'self'", "https://unpkg.com"],
       imgSrc: ["'self'", "data:", "https:", "https://*.tile.openstreetmap.org"],
-      connectSrc: ["'self'", "https://*.tile.openstreetmap.org"],
+      connectSrc: ["'self'", "https://*.tile.openstreetmap.org", "https://nominatim.openstreetmap.org", "https://api.bigdatacloud.net"],
     },
   },
 }));
